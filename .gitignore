@@ -1,0 +1,33 @@
+### Node ###
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log*
+node_modules
+
+### Linux ###
+.*
+!.gitignore
+!.git*
+!.eslint*
+!.jscsrc
+!.git*
+!.npmignore
+!.travis.yml
+*~
+
+### Local configuration ###
+config/local.json
+/config/secret-key.json
+/config/public-key.json
+/config/old-public-key.json
