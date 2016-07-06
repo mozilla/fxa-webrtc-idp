@@ -13,20 +13,20 @@ do anything much yet.
 
 To get up and running:
 
-  npm install
-  ./bin/gen_keys.js
-  npm test
-  npm start
+    npm install
+    ./bin/gen_keys.js
+    npm test
+    npm start
 
 To customize the configuration, either use environment variables:
 
-  PORT=8080 npm start
+    PORT=8080 npm start
 
 Or create a JSON file and load it like this:
 
-  cp config/local.json-dist ./config/local.json
-  vim ./config/local.json
-  CONFIG_FILES=./config/local.json npm start
+    cp config/local.json-dist ./config/local.json
+    vim ./config/local.json
+    CONFIG_FILES=./config/local.json npm start
 
 ## License
 
